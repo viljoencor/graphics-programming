@@ -25,7 +25,7 @@ function draw() {
 
     //default objects in scene
     normalMaterial();
-    for (var i = -600; i <= 600; i += 150) {
+    for (var i = -300; i <= 600; i += 150) {
         push();
         translate(i, 0, 0);
         box(80, 80, 500);
